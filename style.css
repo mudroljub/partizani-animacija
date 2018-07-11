@@ -9,6 +9,8 @@ body {
   padding: 0;
 }
 .container {
+  margin: auto;
+  position: relative;
   width: 800px;
 }
 .logo {
