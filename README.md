@@ -2,4 +2,4 @@
 
 Partizani i Nemci, CSS animacija.
 
-![![](screen.png)](https://mudroljub.github.io/scena-partizani/)
+![[](screen.png)](https://mudroljub.github.io/scena-partizani/)
