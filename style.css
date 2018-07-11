@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #eaeaea;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 800px;
+}
+.logo {
+  left: 250px;
+  position: absolute;
+}
+.logo h1 {
+  font-size: 40px;
+}
+.logo h1::after {
+  color: #bf4842;
+  content: " ★ ";
+}
+
+.scena {
+  position: relative;
+}
+#zastava {
+  width: 80px;
+  display: block;
+}
+#punjac {
+  margin-left: -20px;
+}
+#top {
+  margin-left: -60px;
+}
+#hrabar {
+  margin-left: -80px;
+  point-events: none;
+  animation-name: trzaj;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#tenk {
+  width: 150px;
+  position: absolute;
+  animation-name: pokret;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+@keyframes pokret {
+  0% {
+    right: 0;
+  }
+  25% {
+    right: 25%;
+  }
+  50% {
+    right: 12%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@keyframes trzaj {
+  0% {
+    margin-left: -80px;
+  }
+  95% {
+    margin-left: -80px;
+  }
+  96% {
+    margin-left: -78px;
+  }
+  100% {
+    margin-left: -80px;
+  }
+}

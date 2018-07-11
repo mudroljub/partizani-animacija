@@ -1,2 +1,3 @@
 # scena-partizani
-Animirana scena partizani protiv Nemaca
+
+Partizani i Nemci, CSS animacija.
